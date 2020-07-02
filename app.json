@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Restaurant Finder",
+    "slug": "food",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "android": {
+      "package": "com.abhishek.restaurantFinder",
+      "versionCode": 1
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "sdkVersion": "37.0.0",
+    "description": "Type a dish and it will find a restaurant for you."
+  }
+}
